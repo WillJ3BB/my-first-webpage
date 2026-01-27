@@ -1,1 +1,16 @@
 /*This is the style sheet for the Smiling Economist*/
+.footer-sections {
+  display: flex;       /* inline row layout */
+  flex-wrap: wrap;     /* wraps if screen is too small */
+  gap: 12px;           /* space between items */
+  align-items: center; /* vertical alignment */
+}
+
+.footer-sections span,
+.footer-sections a {
+  display: inline-block;       /* makes spacing & padding work */
+  padding: 6px 10px;           /* optional box padding */
+  border: 1px solid #ccc;      /* optional box outline */
+  background-color: #f8f8f8;   /* optional box color */
+  text-decoration: none;       /* removes link underline */
+}
