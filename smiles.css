@@ -1,0 +1,44 @@
+/*Top of file*/
+
+/*Head area*/
+ 
+.nav-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+.nav-group a,
+.nav-group span {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid  #ccc;
+    background-color:  #f8f8f8;
+    text-decoration: none;
+    color:  #222;
+}
+.nav-group a.active{
+    font-weight: bold;
+    border-bottom: 2px solid  #222;
+}
+
+.site-header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid  #ddd;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 6px;
+}
+ 
+.site-footer {
+    padding: 1rem 2rem;
+}

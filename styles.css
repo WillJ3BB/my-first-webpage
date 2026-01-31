@@ -1,16 +1,30 @@
 /*This is the style sheet for the Smiling Economist*/
 
-/*Head area of page adjustments*/
+
+/* Site-title adjustments*/
+.site-title {
+  margin: 0;
+}
+.site-title a{
+text-decoration: none;
+color: inherit;
+display: inline-flex;
+align-items: center;
+padding: 4px 6px;
+}
+
+
+
+
+/*<Head> area of page adjustments*/
  .site-header {
  display: block;
  align-items: center;
  padding: 1rem 2rem;
  border-bottom: 1px solid #ddd;
  }
-
 .site-header nav{
 display: inline-block;
-gap: 12px;
 padding: 6px 10px;
 border: 1px solid #ccc;
 }
@@ -19,18 +33,9 @@ border: 1px solid #ccc;
 text-decoration: none;
 color: #222;
 }
-
-
 .site-header a.active {
 font-weight: bold;
 border-bottom: 2px solid #222;
-}
-
-
-/* Site-title adjustments*/
-.site-title a{
-text-decoration: none;
-color: inherit;
 }
 
 /*site footer adjustments*/
@@ -40,7 +45,6 @@ color: inherit;
   gap: 12px;           /* space between items */
   align-items: center; /* vertical alignment */
 }
-
 .footer-sections span,
 .footer-sections a {
   display: inline-block;       /* makes spacing & padding work */
@@ -49,4 +53,8 @@ color: inherit;
   background-color: #f8f8f8;   /* optional box color */
   text-decoration: none;       /* removes link underline */
   color: #222;
+}
+.site-footer a.active {
+ font-weight: bold;
+ border-bottom: 2px solid #222;
 }
